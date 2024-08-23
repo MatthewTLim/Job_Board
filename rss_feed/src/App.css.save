@@ -1,0 +1,28 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+item {
+  margin: 10px 0;
+}
+
+title {
+  font-weight: bold;
+}
+
+link {
+  display: block;
+  margin-top: 5px;
+  color: #007bff;
+}
+
+description {
+  margin-top: 5px;
+  color: #555;
+}
+
