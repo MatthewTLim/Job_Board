@@ -1,0 +1,6 @@
+[submodule "Web_Scraper_v1"]
+	path = Web_Scraper_v1
+	url = /Users/matt/Job_Board/Web_Scraper_v1
+[submodule "tech_job_api"]
+	path = tech_job_api
+	url = /Users/matt/Job_Board/tech_job_api
