@@ -1,6 +1,18 @@
 # Job_Board
 
-This repository contains the "Job_Board" project, which includes a web scraper and an API for collecting and providing data related to job listings. The project is organized into submodules: `Web_Scraper_v1` and `tech_job_api`. This is still a WIP.
+This repository contains the "Job_Board" project, which includes a web scraper, an API, and a frontend for collecting and providing data related to job listings. The project is organized into submodules: `Web_Scraper_v1`, `tech_job_api`, and a frontend (React app). This is still a WIP (Work in Progress).
+
+## Justification for Using Submodules
+
+The decision to use submodules for the web scraper, API, and frontend is based on the following considerations:
+
+1. **Modularity and Separation of Concerns**: Each submodule serves a distinct purpose: the web scraper (`Web_Scraper_v1`) is responsible for gathering job listings, the API (`tech_job_api`) provides a standardized way to access and manipulate that data, and the frontend handles user interactions. This separation allows each component to be developed, tested, and deployed independently.
+
+2. **Ease of Maintenance and Updates**: Using submodules makes it easier to maintain and update individual parts of the project. For example, if there are changes or improvements to the scraping logic, they can be made in the `Web_Scraper_v1` submodule without impacting the API or frontend. Similarly, changes to the API or frontend can be made in isolation.
+
+3. **Reusability**: Submodules allow each component to be reused across different projects. The web scraper or API could be utilized by other projects in the future, and keeping them in separate repositories facilitates this reuse.
+
+4. **Collaboration and Version Control**: Submodules facilitate better collaboration by allowing teams or individuals to work on different parts of the project simultaneously. Each submodule has its own version control, which can help manage updates, rollbacks, and feature development more efficiently.
 
 ## Table of Contents
 
@@ -199,4 +211,6 @@ If you would like to contribute to the project, please follow these guidelines:
 3. Make your changes and test them.
 4. Submit a pull request with a clear description of the changes.
 
----
+--- 
+
+Feel free to make any additional adjustments to align with your project's specifics.
